@@ -3,7 +3,7 @@ import React from "react";
 export default function AnimateDemo() {
   return (
     <div className="flex m-20 flex-col min-h-screen">
-      <div className="p-3  bg-pink-500 text-white  w-[300px] rounded-2xl animate">
+      <div className="p-3  bg-pink-500 text-white  w-[300px] rounded-2xl animate-bounce">
         Bounce
       </div>
 

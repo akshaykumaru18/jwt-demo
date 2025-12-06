@@ -25,7 +25,8 @@ export default function MoveMouse() {
   return (
     <div className='w-screen h-screen bg-black'>
         <div
-            className=' border-red-500 border-2 w-[30px] h-[30px] fixed z-[9999] rounded-full animate-pulse pointer-events-none'
+            className='border-red-500 border-2 w-[30px] h-[30px]
+            fixed z-[9999] rounded-full animate-pulse pointer-events-none'
             style={{
                 left: mousePos.x,
                 top: mousePos.y
